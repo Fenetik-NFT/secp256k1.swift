@@ -54,7 +54,6 @@ let package = Package(
                 .define("SECP256K1_ECDH_H"),
                 .define("SECP256K1_MODULE_ECDH_MAIN_H"),
                 .define("SECP256K1_EXTRAKEYS_H"),
-                .define("SECP256K1_RECOVERY_H"),
                 .define("SECP256K1_MODULE_EXTRAKEYS_MAIN_H"),
                 .define("SECP256K1_SCHNORRSIG_H"),
                 .define("SECP256K1_MODULE_SCHNORRSIG_MAIN_H"),
