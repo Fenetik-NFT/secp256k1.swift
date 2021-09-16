@@ -57,6 +57,7 @@ let package = Package(
                 .define("SECP256K1_MODULE_EXTRAKEYS_MAIN_H"),
                 .define("SECP256K1_SCHNORRSIG_H"),
                 .define("SECP256K1_MODULE_SCHNORRSIG_MAIN_H"),
+                .define("ENABLE_MODULE_EXTRAKEYS"),
             ]
         ),
         // Only include select utility extensions because most of Swift Crypto is not required
